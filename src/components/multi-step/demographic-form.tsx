@@ -112,7 +112,7 @@ const getCites =  async (country:any,state:any) => {
                         placeholder="Enter type of Location"
                         formik={form}
                         name="typeOfLocation"
-                        required
+                      
                     />
                 </Row>
 

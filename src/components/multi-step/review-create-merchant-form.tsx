@@ -62,19 +62,19 @@ if(accesstoken)
   return (
     <div>
       <label  className="block text-sm font-medium text-gray-700">
-    Attachment 1:
+      Voided Check 
 </label>
 <input id="fileInput" name="fileInput" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" className="mt-1 p-2 border border-gray-300  mb-6 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm"/>
 <label  className="block text-sm font-medium text-gray-700">
-    Attachment 2:
+Bank Letter
 </label>
 <input id="fileInput" name="fileInput" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" className="mt-1 p-2 border border-gray-300 mb-6 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm"/>
 <label  className="block text-sm font-medium text-gray-700">
-    Attachment 3:
+Drivers License
 </label>
 <input id="fileInput" name="fileInput" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" className="mt-1 p-2 border border-gray-300 mb-6 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm"/>
 <div className='w-full flex justify-center'>
-<button onClick={()=> getToken()} className='bg-green-500 w-32 h-12 rounded-md  '>Submit</button>
+<button onClick={()=> getToken()} className='bg-green-500 w-32 h-12 rounded-md text-white '>Submit</button>
 
 </div>
     </div>

@@ -42,7 +42,7 @@ export default function BankDetailsForm() {
             placeholder="Select Billing Bank"
             formik={form}
             name="billingBank"
-            required
+          
           />
           <BaseInput
             label="Account Number"
